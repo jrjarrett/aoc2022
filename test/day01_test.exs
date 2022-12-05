@@ -39,7 +39,7 @@ defmodule Day01Test do
   end
 
   test "day 1 test" do
-    result = Day01.calories_for_elves("priv/input-day1.txt")
+    result = Day01.calories_for_elves("priv/day-01.txt")
     |> Day01.elf_with_the_most_calories
     assert Map.get(result, :calories) == 24000
   end
